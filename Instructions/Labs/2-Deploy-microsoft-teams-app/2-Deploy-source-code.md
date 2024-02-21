@@ -8,15 +8,15 @@ Neste exercício, implante o código-fonte nos seus recursos Azure provisionados
 
 2. No painel Kit de Ferramenta do Teams, em **Ciclo de Vida**, selecione **Implantar**.
 
-    :::image type="content" source="../media/deploy-button.png" alt-text="Captura de tela do link de implantação na nuvem realçado.":::
+    ![Captura de tela do link de implantação na nuvem realçado.](../../media/deploy-button.png)
 
 3. Na caixa de diálogo de confirmação da implantação, selecione **Implantar**.
 
-    :::image type="content" source="../media/deploy-confirm.png" alt-text="Captura de tela de uma caixa de diálogo para confirmar a implantação":::.
+    ![Captura de tela de uma caixa de diálogo para confirmar a implantação.](../../media/deploy-confirm.png).
 
 4. Verifique se há confirmação da implantação bem-sucedida no editor do Visual Studio Code.
 
-    :::image type="content" source="../media/deploy-success.png" alt-text="Captura de tela mostrando que a implantação foi bem-sucedida.":::
+    ![Captura de tela mostrando que a implantação foi bem-sucedida.](../../media/deploy-success.png)
 
 O código do aplicativo da guia do Teams está hospedado com êxito no Armazenamento do Microsoft Azure e pronto para ser publicado no Teams.
 
