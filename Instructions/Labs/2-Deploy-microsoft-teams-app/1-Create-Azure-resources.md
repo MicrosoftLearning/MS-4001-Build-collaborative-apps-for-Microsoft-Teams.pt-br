@@ -12,11 +12,11 @@ Neste exercício, primeiro você criará e provisionará um aplicativo de guia d
 
 1. Nas opções, selecione **Guia**.
 
-    :::image type="content" source="../../media/create-teams-tab-app.png" alt-text="Captura de tela da opção Kit de Ferramentas do Teams para o aplicativo de guia.":::
+    ![Captura de tela da opção Kit de Ferramentas do Teams para o aplicativo de guia.](../../media/create-teams-tab-app.png)
 
 1. Em seguida, selecione **React com a interface do usuário Fluent**.
 
-    :::image type="content" source="../../media/create-teams-tab-react.png" alt-text="Captura de tela do modelo de aplicativo do Kit de Ferramentas do Teams com a guia selecionada.":::
+    ![Captura de tela do modelo de aplicativo do Kit de Ferramentas do Teams com a guia selecionada.](../../media/create-teams-tab-react.png)
 
 1. Nas opções de linguagem de programação, selecione **JavaScript**.
 
@@ -26,7 +26,7 @@ Neste exercício, primeiro você criará e provisionará um aplicativo de guia d
 
 1. O scaffolding do projeto começa. Quando o projeto é scaffolded, uma nova janela do Visual Studio Code é aberta com o novo projeto carregado.
 
-    :::image type="content" source="../../media/new-tab-project.png" alt-text="Captura de tela do novo projeto de guia do Teams Toolkit depois que a sua estrutura é criada (scaffolding).":::
+    ![Captura de tela do novo projeto de guia do Teams Toolkit depois que a sua estrutura é criada (scaffolding).](../../media/new-tab-project.png)
 
 1. No Visual Studio Code, selecione **Executar > Iniciar depuração** ou selecione a chave **F5** para iniciar a sessão de depuração.
 
@@ -38,15 +38,17 @@ Neste exercício, primeiro você criará e provisionará um aplicativo de guia d
 
 ## Tarefa 2: Entrar no Azure no Kit de Ferramentas do Teams
 
+Entre no Azure usando sua conta da **assinatura do Azure**.
+
 1. Na Barra de atividades, selecione o ícone do **Microsoft Teams**.
 
 1. No painel do Kit de Ferramentas do Teams, em **Contas**, selecione **Entrar no Azure**.
 
-    :::image type="content" source="../../media/sign-into-azure.png" alt-text="Captura de tela do painel do Kit de Ferramentas do Teams com o botão para entrar no Azure.":::
+    ![Captura de tela do painel do Kit de Ferramentas do Teams com o botão para entrar no Azure.](../../media/sign-into-azure.png)
 
 1. Na caixa de diálogo exibida, selecione **Entrar**.
 
-    :::image type="content" source="../../media/sign-into-azure-alert.png" alt-text="Captura de tela de uma caixa de diálogo para confirmar a entrada no Azure.":::
+    ![Captura de tela de uma caixa de diálogo para confirmar a entrada no Azure.](../../media/sign-into-azure-alert.png)
 
 ## Tarefa 3: Provisionar os recursos
 
@@ -54,11 +56,11 @@ Agora você pode provisionar os recursos de que o seu aplicativo de guias do Tea
 
 1. No painel do Kit de Ferramentas do Teams, em **Ciclo de vida**, selecione **Provisionar**.
 
-    :::image type="content" source="../../media/provision-start.png" alt-text="Captura de tela que realça o provisionamento na opção de nuvem na seção de implantação.":::
+    ![Captura de tela que realça o provisionamento na opção de nuvem na seção de implantação.](../../media/provision-start.png)
 
 1. Em seguida, você precisa selecionar um grupo de recursos em que possa provisionar os recursos ou criar um novo grupo de recursos selecionando a opção **Novo grupo de recursos** no menu **Selecionar um grupo de recursos**.
 
-    :::image type="content" source="../../media/resource-group.png" alt-text="Captura de tela que mostra como criar um novo grupo de recursos.":::
+    ![Captura de tela que mostra como criar um novo grupo de recursos.](../../media/resource-group.png)
 
 1. A ferramenta sugere automaticamente o nome do grupo de recursos, como rg-hello-tab0989fd-dev. Selecione **Enter**.
 
@@ -66,7 +68,7 @@ Agora você pode provisionar os recursos de que o seu aplicativo de guias do Tea
 
 1. Em uma caixa de diálogo para confirmar a sua seleção, selecione **Provisionar**.
 
-    :::image type="content" source="../../media/provision-confirm.png" alt-text="Captura de tela da caixa de diálogo para confirmar o provisionamento.":::
+    ![Captura de tela da caixa de diálogo para confirmar o provisionamento.](../../media/provision-confirm.png)
 
 1. O provisionamento começa para todos os recursos necessários para hospedar o aplicativo de guias do Teams no Azure. O provisionamento pode demorar um pouco.
 
