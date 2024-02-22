@@ -9,20 +9,47 @@ Você precisa das seguintes ferramentas para concluir os laboratórios deste cur
 - Acesso de administrador a um locatário do Microsoft 365.
 - Uma assinatura do Azure.
 - Visual Studio Code.
-- Extensão do Visual Studio Code do Kit de Ferramentas do Teams:  Versão 5.0.0 ou superior. (As instruções de instalação estão no Laboratório 1)
-- O cliente do Microsoft Teams (para trabalho ou escola).
-- Node.js. Versões com suporte: 16, 18.
+- Extensão do Visual Studio Code do Kit de Ferramentas do Teams:  Versão 5.0.0 ou superior. (Você realizará esta instalação durante o laboratório)
+- O cliente do Microsoft Teams (corporativo ou de estudante), ou acesso ao Microsoft Teams através de um navegador.
+- Versão 16.14.2 do Node.js.
 
-## Instalar software de pré-requisito
+## Instale o nvm-windows
 
-1. Navegue até o site do Node.js: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
-2. Navegue até **Versões anteriores**.
-3. Localize o download da versão 16 (ou 18).  Selecione **Versões** na linha da versão desejada.
-4. Para a versão 16, selecione **node-v16.20.2-x64.msi** para baixar o instalador ou selecione o tipo de download apropriado para o seu computador.
-5. Abra o arquivo do instalador e siga os prompts para instalar Node.js.
+Você usará essa ferramenta para instalar o Node.js e, se necessário, alternar as versões do Node para seus projetos.
 
-## Entrar no Teams
+1. Em um navegador da Web, acesse [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases).
+2. Localize a versão mais recente e selecione o arquivo **nvm-setup.zip** para baixar.  O arquivo será baixado no seu computador.
+3. Abra a pasta do arquivo e **extraia** o conteúdo da pasta zip em um diretório no seu computador.
+4. Na nova pasta, abra o arquivo **nvm-setup.exe** para iniciar a instalação.
+5. Siga as solicitações do instalador para instalar a ferramenta usando as opções padrão.
+6. O nvm para Windows será instalado no seu computador.
 
-1. Abra o Microsoft Teams (trabalho ou escola).
-2. Selecione **Entrar** se você ainda não estiver conectado.
-3. Entre com as suas credenciais do Microsoft 365.
+## Instalar o Node.js
+
+Instale a versão 16.14.2 do Node.js, que é compatível com todas as soluções neste curso.
+
+1. Abra o aplicativo **Prompt de Comando**.
+2. Insira o comando `nvm install 16.14.2` para instalar o Node.js.
+3. A saída do nvm deve confirmar a conclusão da instalação.
+4. Execute o comando `nvs use 16.14.2` para usar esta versão do Node.js.
+5. Execute o comando `node -v` para confirmar se você tem a versão 16.14.2 instalada.
+
+Você instalou e configurou a versão 16.14.2 do Node.js
+
+## Assinatura do Azure
+
+Observe que, se você recebeu informações de login do Azure, um grupo de recursos já foi criado para você.  Nas tarefas de provisionamento dos laboratórios, quando for solicitado para "selecionar um grupo de recursos ou criar um novo", **escolha o grupo de recursos fornecido**.
+
+## Depurar aplicativos do Teams
+
+Ao depurar seu aplicativo do Teams localmente, talvez seja necessário instalar um certificado de desenvolvimento no localhost.  Você precisará fazer isso para depurar localmente.
+
+Quando solicitado, selecione **Instalar**.
+
+![Captura de tela da solicitação para instalar o certificado de desenvolvimento.](../../media/install-certificate.png)
+
+Em seguida, selecione **Sim** na caixa de diálogo Aviso de Segurança.
+
+![Captura de tela da caixa de diálogo de segurança.](../../media/development-certificate.png)
+
+Acesse a documentação do Teams para saber mais: [Depurar seu aplicativo do Teams localmente](https://learn.microsoft.com/microsoftteams/platform/toolkit/debug-local?tabs=Windows&pivots=visual-studio-code-v5)
