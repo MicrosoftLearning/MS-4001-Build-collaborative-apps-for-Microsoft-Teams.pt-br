@@ -8,22 +8,22 @@ lab:
 
 ## Cenário
 
-Suponha que você tenha sido solicitado a ajudar a equipe de Suporte de TI a criar uma extensão de mensagem que permita aos membros da equipe recuperar informações de contato para os usuários e inserir os detalhes do contato em mensagens no Teams usando cartões.  Nesse exercício, você implementará uma extensão de mensagem que recupera os dados do usuário do Microsoft Graph.  A solução já foi estruturada usando o Kit de Ferramentas do Teams, mas você precisará fazer alterações para implementar a funcionalidade.
+Suponha que a equipe de suporte de TI pediu sua ajuda para criar uma extensão de mensagem que permita que os membros da equipe recuperem informações de contato de usuários e insiram os detalhes de contato em mensagens no Teams usando cartões.  Neste exercício, você implementará uma extensão de mensagem que recupera dados do usuário a partir do Microsoft Graph.  A solução já foi estruturada usando o Teams Toolkits, mas você precisará fazer alterações para implementar a funcionalidade.
 
-## Tarefas de exercício
+## Tarefas do exercício
 
 Sua meta é garantir que o aplicativo tenha a seguinte funcionalidade:
 
-:::image type="content" source="../../media/contact-details-demo1.png" alt-text="Captura de tela da extensão de mensagem de detalhes do contato no Teams.":::
+![Captura de tela da extensão de mensagem de detalhes do contato no Teams.](../../media/contact-details-demo1.png)
 
 - Os usuários do aplicativo inserem o nome de um usuário na interface do usuário da extensão de mensagem.
 - O aplicativo usa o ponto de extremidade `users` da API do Graph para localizar usuários por nome de exibição e lista os resultados.
 - Quando o usuário do aplicativo seleciona o usuário desejado nos resultados da pesquisa, ele pode inserir o cartão desejado em uma mensagem no Teams.
 - O cartão exibe o nome de exibição, o endereço de email e o número de telefone do usuário
 
-:::image type="content" source="../../media/contact-details-demo2.png" alt-text="Captura de tela do aplicativo de detalhes de contato no Teams.":::
+![Captura de tela do aplicativo de detalhes de contato no Teams.](../../media/contact-details-demo2.png)
 
-:::image type="content" source="../../media/contact-details-demo3.png" alt-text="Captura de tela do aplicativo de detalhes de contato no Teams: inserindo cartão na mensagem.":::
+![Captura de tela do aplicativo de detalhes de contato no Teams: inserindo cartão na mensagem.](../../media/contact-details-demo3.png)
 
 Execute as seguintes tarefas para concluir o exercício:
 
@@ -31,7 +31,7 @@ Execute as seguintes tarefas para concluir o exercício:
 2. Conclua a funcionalidade de pesquisa.
 3. Adicione as consultas do Graph.
 4. Provisione recursos para a extensão de mensagem.
-5. Configure permissões para acessar o Microsoft Graph.
+5. Configurar permissões para acessar o Microsoft Graph.
 6. Implantar no Azure.
 7. Execute e teste o aplicativo.
 
@@ -89,16 +89,16 @@ Em seguida, use o Kit de Ferramentas do Teams para provisionar os recursos neces
 > Observação: Provisionar recursos de nuvem do Azure e implantar no Azure pode causar encargos em sua assinatura do Azure.
 
 1. No código do Visual Studio, selecione o **Kit de Ferramentas do Teams** na barra lateral.
-2. Em **CONTAS**, entre em seu locatário do Microsoft 365 e em sua conta do Azure.
+2. Em **CONTAS**, entre em seu locatário do Microsoft 365 e em sua **conta do Azure**.
 3. Em **CICLO DE VIDA**, selecione **Provisionar**.
-    :::image type="content" source="../../media/toolkit-provision.png" alt-text="Captura de tela da extensão do Kit de Ferramentas do Teams no Visual Studio Code.":::
+    ![Captura de tela da extensão do Kit de Ferramentas do Teams no Visual Studio Code.](../../media/toolkit-provision.png)
 4. Selecione um grupo de recursos em que você pode provisionar os recursos ou criar um novo grupo de recursos selecionando a opção **Novo grupo de recursos** e seguindo os prompts.  
-    :::image type="content" source="../../media/new-resource-group.png" alt-text="Captura de tela do menu Selecionar um grupo de recursos no Kit de Ferramentas do Teams.":::
+    ![Captura de tela do menu Selecionar um grupo de recursos no Kit de Ferramentas do Teams.](../../media/new-resource-group.png)
 5. Na caixa de diálogo final para confirmar sua escolha, selecione **Provisionar**.
 
     Quando o provisionamento for concluído, um novo registro de aplicativo deverá ser criado em seu locatário do Microsoft 365 usando o ambiente `dev` no Kit de Ferramentas do Teams. O provisionamento pode demorar um pouco.
 
-    :::image type="content" source="../../media/provisioned-resources-dev.png" alt-text="Captura de tela do Kit de Ferramentas do Teams para Visual Studio Code mostrando um ambiente de desenvolvimento provisionado.":::
+    ![Captura de tela do Kit de Ferramentas do Teams para Visual Studio Code mostrando um ambiente de desenvolvimento provisionado.](../../media/provisioned-resources-dev.png)
 
 ## Tarefa 5: Configurar permissões para recuperar dados do Microsoft Graph
 
@@ -111,10 +111,10 @@ Em seguida, use o Kit de Ferramentas do Teams para provisionar os recursos neces
 7. Selecione **Microsoft Graph**.
 8. Selecione **Permissões delegadas**.
 9. Localize as permissões listadas em **Usuário** e selecione a permissão **User.Read.All**.
-    :::image type="content" source="../../media/user-permissions.png" alt-text="Captura de tela das permissões do Graph no portal do Azure.":::
+    ![Captura de tela das permissões do Graph no portal do Azure.](../../media/user-permissions.png)
 10. Selecione o botão **Adicionar permissões**.
 11. A permissão está configurada, mas requer consentimento do administrador.
-    :::image type="content" source="../../media/configured-permissions-consent.png" alt-text="Captura de tela da exibição Permissões Configuradas no Portal do Azure.":::
+    ![Captura de tela da exibição Permissões Configuradas no Portal do Azure.](../../media/configured-permissions-consent.png)
 12. Selecione **Conceder consentimento do administrador para [locatário]** e selecione **Sim** para confirmar.
 
 A permissão foi configurada e consentida.
@@ -136,12 +136,12 @@ Visualize seu aplicativo no cliente do Teams para testar a funcionalidade.
 1. No painel do Kit de Ferramentas do Teams, em **Desenvolvimento**, selecione **Visualizar seu Aplicativo do Teams (F5)**.
 2. No menu suspenso, selecione a opção desejada para **Iniciar Remoto** com seu navegador preferido.
 
-    :::image type="content" source="../../media/launch-remote.png" alt-text="Captura de tela da opção para iniciar remotamente usando o Kit de Ferramentas do Teams.":::
+    ![Captura de tela da opção para iniciar remotamente usando o Kit de Ferramentas do Teams.](../../media/launch-remote.png)
 
 3. Ao executar o aplicativo pela primeira vez, todas as dependências serão baixadas e o aplicativo será compilado. Uma janela do navegador abrirá ao concluir a compilação. Esse processo pode levar de três a cinco minutos para ser concluído.
 4. O Teams exibe uma janela com a descrição e os requisitos de permissão do aplicativo.  Selecione **Adicionar** para adicionar o aplicativo.
 
-    :::image type="content" source="../../media/add-contact-details-app.png" alt-text="Captura de tela do cliente do Teams com a opção de instalar o aplicativo de detalhes de contato.":::
+    ![Captura de tela do cliente do Teams com a opção de instalar o aplicativo de detalhes de contato.](../../media/add-contact-details-app.png)
 
 5. Quando a extensão de mensagem for carregada no cliente do Teams, insira uma letra para pesquisar os usuários pelo nome de exibição.  Selecione um resultado para inserir um cartão na conversa.
 

@@ -85,16 +85,12 @@ Execute seu aplicativo no modo de depuração para testar a funcionalidade.
 
 1. No Visual Studio Code, selecione o ícone **Microsoft Teams** para abrir o painel **Kit de Ferramenta do Teams**.
 
-2. Se você não estiver conectado ao Azure no Kit de Ferramenta do Teams: Na seção **CONTAS**, selecione **Entrar no Azure**. Na caixa de diálogo que se abrirá, selecione o botão **Entrar** e insira suas credenciais do Microsoft 365.
-
-   O Kit de Ferramenta do Teams requer uma conta corporativa ou de estudante do Microsoft 365 com privilégios de Administrador Global.
-
-3. Comece a executar seu aplicativo com o depurador conectado usando um destes métodos:
+2. Comece a executar seu aplicativo com o depurador conectado usando um destes métodos:
 
    - Selecione a tecla F5.
-   - No Visual Studio Code, selecione **Executar** > **Iniciar depuração**.
+   - No Visual Studio Code, navegue até o menu **Executar e depurar**.  Selecione **Depurar no Teams** com a opção de navegador desejada e, em seguida, selecione o botão **Iniciar a depuração**.
    - Na seção **AMBIENTE** do Kit de Ferramenta do Teams, abra a pasta *local* e selecione o navegador de sua preferência.
 
-4. Depois que o Visual Studio Code executar algumas verificações, com ações visíveis na guia **Console**, uma nova janela do navegador será aberta. Na caixa de diálogo **UserInfoApp**, selecione o botão **Adicionar** para instalar o aplicativo no Teams para pré-visualização.
+3. Depois que o Visual Studio Code executar algumas verificações, com ações visíveis na guia **Console**, uma nova janela do navegador será aberta. Na caixa de diálogo **UserInfoApp**, selecione o botão **Adicionar** para instalar o aplicativo no Teams para pré-visualização.
 
 O aplicativo agora pode ser visualizado na barra lateral. O aplicativo está pré-configurado com duas guias: **Guia Pessoal** e **Sobre**. Verifique se o código da localidade está sendo exibido na guia.
