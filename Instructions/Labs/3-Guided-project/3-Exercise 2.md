@@ -31,16 +31,14 @@ Primeiro, registre um webhook de entrada.
 2. No canal, selecione o menu **Mais opções** e selecione **Conectores**.  (Observação: use o menu dentro do canal, não o menu da lista de canais.)
 3. Pesquise por `"webhook"` e selecione **Webhook de entrada**.
 
-   :::image type="content" source="../../media/add-incoming-webhook.png" alt-text="Captura de tela do webhook na barra de pesquisa.":::
+   ![Captura de tela do webhook na barra de pesquisa.](../../media/add-incoming-webhook.png)
 
 4. Selecione **Adicionar**.
 5. Na página de visão geral, selecione **Adicionar**.
 6. No canal, selecione o menu **Mais opções** novamente e selecione **Conectores**.
 7. Ao lado do **Webhook de entrada**, selecione **Configurar**.
 8. Para o nome, insira **Alertas**.
-9. Selecione **Criar**.
-10. Copie a **URL** a ser usada na próxima tarefa.
-11. Selecione **Concluído**.
+9. Selecione **Criar**.  Deixe esta janela aberta para que você possa copiar a URL durante a próxima tarefa.
 
 Você configurou um webhook de entrada no canal.
 
@@ -49,7 +47,7 @@ Você configurou um webhook de entrada no canal.
 Para testar o webhook, use o PowerShell para enviar uma mensagem para o ponto de extremidade do webhook.
 
 1. Abra o **PowerShell**.
-2. Execute o seguinte comando para enviar a mensagem:
+2. Execute o comando a seguir para enviar a mensagem.  Substitua <YOUR WEBHOOK URL> pela URL da janela de configuração do webhook no Teams da tarefa anterior:
 
      ```powershell
      Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body '{"text":"Testing the Alerts endpoint."}' -Uri <YOUR WEBHOOK URL>
@@ -60,4 +58,4 @@ Para testar o webhook, use o PowerShell para enviar uma mensagem para o ponto de
 1. No cliente do Microsoft Teams, navegue até a guia **Conversas** do canal configurado.
 2. Verifique a presença de uma mensagem no canal de `Alerts` em que se lê `"Testing the Alerts endpoint"`.
 
- :::image type="content" source="../../media/final-alert-message.png" alt-text="Captura de tela da exibição Permissões Configuradas no Portal do Azure.":::
+ ![Captura de tela da exibição Permissões Configuradas no Portal do Azure.](../../media/final-alert-message.png)

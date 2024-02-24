@@ -147,6 +147,20 @@ Em seguida, manipule o comando no código-fonte do bot usando a classe `TeamsFxB
         }
    ```
 
+## Tarefa 5: Registrar o novo comando
+
+Cada novo comando precisa ser configurado no `ConversationBot`, que alimenta o fluxo de conversação do modelo de bot de comando.
+
+1. Navegue até o arquivo `src/internal/initialize.ts`.
+2. Adicione a seguinte instrução de importação na linha 2:
+
+    `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
+3. Na linha 20, atualize a matriz `commands` da propriedade `command` para incluir uma instrução para inicializar o novo manipulador: o objeto `new ResetPasswordCommandHandler().  The updated `command` deve ser o seguinte:
+
+   ```json
+   command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
+    ```
+
 ## Verifique seu trabalho
 
 Execute o seu aplicativo localmente para testar a funcionalidade:
