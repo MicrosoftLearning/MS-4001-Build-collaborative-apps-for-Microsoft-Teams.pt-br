@@ -2,7 +2,7 @@
 
 Neste exercício, primeiro você criará e provisionará um aplicativo de guia do Teams usando o Kit de Ferramentas do Teams para Visual Studio Code. Em um exercício posterior, você configurará o aplicativo a ser hospedado no Azure.
 
-**Observação**:  Os exercícios neste módulo de treinamento usam o Kit de Ferramentas do Teams v5.0.0. As etapas a seguir pressupõem que a extensão do Kit de Ferramentas do Teams esteja instalada.
+**Observação**:  Os exercícios neste módulo de treinamento usam o Kit de Ferramentas do Teams v5.6.0. As etapas a seguir pressupõem que a extensão do Kit de Ferramentas do Teams esteja instalada.
 
 ## Tarefa 1: Criar um novo aplicativo de guias
 

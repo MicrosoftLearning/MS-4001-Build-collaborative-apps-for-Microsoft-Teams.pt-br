@@ -52,14 +52,14 @@ O aplicativo de extensão de mensagem foi estruturada usando o Kit de Ferramenta
 | `.vscode/` | Arquivos VSCode para depuração local. |
 | `appPackage/` | Os arquivos do pacote do aplicativo, incluindo o manifesto do aplicativo Teams. |
 | `infra/` | Modelos para provisionar recursos do Azure. |
-| `index.js` | Ponto de entrada e manipulador `restify` do aplicativo. |
-| `teamsBot.js` | Manipulador de atividades do Teams.  |
+| `index.ts` | Ponto de entrada e manipulador `restify` do aplicativo. |
+| `teamsBot.ts` | Manipulador de atividades do Teams.  |
 
 ## Tarefa 2: Concluir a funcionalidade de pesquisa
 
 A solução está sem o código para armazenar o valor da cadeia de caracteres de consulta de pesquisa para uso na consulta do Graph.  Atualize o código para armazenar esse valor em uma variável chamada `searchQuery`.
 
-1. Navegue até o arquivo **TeamsBot.ts**.
+1. Navegue até o arquivo **teamsBot.ts**.
 2. No método `handleTeamsMessagingExtensionQuery`, localize o comentário **// Obtenha o contexto de pesquisa dos parâmetros de consulta.** na linha 81 e adicione a seguinte linha de código na próxima linha:
 
     ```JavaScript
@@ -74,7 +74,7 @@ A solução não tem o caminho da API para a consulta do Graph que usa a cadeia 
 
       `// Use the Graph API to search for users by their display name.`
 
-2. Na próxima linha de código, substitua `path` pelo seguinte caminho de API:
+2. Na próxima linha de código, substitua `PATH` pelo seguinte caminho de API:
 
      ```TypeScript
      /users?$search="displayName:${searchQuery}"&$count=true
@@ -104,8 +104,8 @@ Em seguida, use o Kit de Ferramentas do Teams para provisionar os recursos neces
 
 1. Entre no portal do Azure [portal.azure.com](portal.azure.com) usando sua conta de administrador do **Microsoft 365**.
 2. No menu de navegação à esquerda, navegue até **Microsoft Entra ID**.
-3. Navegue até **Gerenciar > Registros de aplicativo > Todos os registros**.
-4. Selecione o registro do aplicativo **ContactDetails** criado durante o provisionamento.
+3. Acesse **Gerenciar > Registros de aplicativo > Todos os aplicativos**.
+4. Selecione o registro do aplicativo **Detalhes de Contato** criado durante o provisionamento.
 5. Navegue até **Gerenciar > Permissões de API.**
 6. Selecione **+ Adicionar uma permissão**.
 7. Selecione **Microsoft Graph**.

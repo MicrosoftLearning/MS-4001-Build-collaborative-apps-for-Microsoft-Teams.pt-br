@@ -55,7 +55,7 @@ Para testar o webhook, use o PowerShell para enviar uma mensagem para o ponto de
 
 ## Verifique seu trabalho
 
-1. No cliente do Microsoft Teams, navegue até a guia **Conversas** do canal configurado.
+1. No cliente do Microsoft Teams, navegue até a guia **Postagens** do canal configurado.
 2. Verifique a presença de uma mensagem no canal de `Alerts` em que se lê `"Testing the Alerts endpoint"`.
 
  ![Captura de tela da exibição Permissões Configuradas no Portal do Azure.](../../media/final-alert-message.png)
