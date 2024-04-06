@@ -9,7 +9,7 @@ Você precisa das seguintes ferramentas para concluir os laboratórios deste cur
 - Acesso de administrador a um locatário do Microsoft 365.
 - Uma assinatura do Azure.
 - Visual Studio Code.
-- Extensão do Visual Studio Code do Kit de Ferramentas do Teams:  Versão 5.0.0 ou superior. (Você realizará esta instalação durante o laboratório)
+- Extensão do Visual Studio Code do Kit de Ferramentas do Teams:  Versão 5.2.0 ou superior. (Você realizará esta instalação durante o laboratório)
 - O cliente do Microsoft Teams (corporativo ou de estudante), ou acesso ao Microsoft Teams através de um navegador.
 - Versão 16.14.2 do Node.js.
 
@@ -31,7 +31,7 @@ Instale a versão 16.14.2 do Node.js, que é compatível com todas as soluções
 1. Abra o aplicativo **Prompt de Comando**.
 2. Insira o comando `nvm install 16.14.2` para instalar o Node.js.
 3. A saída do nvm deve confirmar a conclusão da instalação.
-4. Execute o comando `nvs use 16.14.2` para usar esta versão do Node.js.
+4. Execute o comando `nvm use 16.14.2` para usar esta versão do Node.js.
 5. Execute o comando `node -v` para confirmar se você tem a versão 16.14.2 instalada.
 
 Você instalou e configurou a versão 16.14.2 do Node.js

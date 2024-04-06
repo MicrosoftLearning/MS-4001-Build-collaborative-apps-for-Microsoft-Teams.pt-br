@@ -10,7 +10,7 @@ Neste exercício, você executará o aplicativo do Teams localmente.
 
 2. Na caixa de diálogo pop-up, selecione **Entrar**. Você será direcionado a um navegador para entrar com as **credenciais da sua conta do Microsoft 365**.  Insira suas credenciais de administrador.
 
-3. Quando estiver conectado com êxito, feche o navegador e retorne ao Visual Studio Code. Uma mensagem *Sideload habilitado* aparecerá na sua conta no Kit de Ferramenta do Teams para indicar que o locatário está configurado corretamente.
+3. Quando estiver conectado com êxito, feche o navegador e retorne ao Visual Studio Code. Uma mensagem **Upload de aplicativo personalizado habilitado** aparecerá na sua conta no Kit de Ferramenta do Teams para indicar que o locatário está configurado corretamente.
 
     ![Captura de tela da nota habilitada para sideload no Kit de Ferramenta do Teams.](../../media/sideload-enabled.png)
 
@@ -24,7 +24,7 @@ Vamos executar o projeto e ver como ele ficará no Microsoft Teams.
 4. Em seguida, o Kit de Ferramenta do Teams abrirá o Microsoft Teams no navegador que você selecionou.
 5. Entre com a mesma conta do **Microsoft 365** que você usou para entrar no Kit de Ferramenta do Teams.
 6. Em seguida, o Teams exibirá uma opção para instalar seu aplicativo. Selecione **Adicionar** para pré-visualizar o aplicativo.
-7. Quando estiver pré-visualizando, o nome do seu aplicativo será sufixado com *local-debug*. O sufixo indica que o aplicativo está sendo executado localmente e não foi implantado.
+7. Quando você estiver pré-visualizando, o nome do seu aplicativo será sufixado com *local*. O sufixo indica que o aplicativo está sendo executado localmente e não foi implantado.
 
     ![Captura de tela da caixa de diálogo para instalar um aplicativo do Teams.](../../media/add-teams-app.png)
 
