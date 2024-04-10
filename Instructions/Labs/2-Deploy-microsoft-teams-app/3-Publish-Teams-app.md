@@ -6,7 +6,7 @@ Neste exercício, você aprenderá a publicar seu aplicativo na loja da organiz
 
 1. No Visual Studio Code, na Barra de Atividades, selecione o ícone **Microsoft Teams** para abrir o painel **Kit de Ferramenta do Teams**.
 
-    a. ![Captura de tela do painel do Kit de Ferramenta do Teams aberto e a opção Publicar no Teams realçada.](../../media/publish-to-teams.png)
+    ![Captura de tela do painel do Kit de Ferramenta do Teams aberto e a opção Publicar no Teams realçada.](../../media/publish-to-teams.png)
 
 1. No painel Kit de Ferramenta do Teams, em **Ciclo de Vida**, selecione **Publicar**.
 
@@ -16,14 +16,14 @@ Neste exercício, você aprenderá a publicar seu aplicativo na loja da organiz
 
     a. ![Captura de tela da mensagem de notificação quando o aplicativo é publicado na loja da organização.](../../media/published-successfully.png)
 
-    a. ![Captura de tela do Centro de administração do Teams.](../../media/admin-portal.png)
+    b. ![Captura de tela do Centro de administração do Teams.](../../media/admin-portal.png)
 
 1. No menu **Gerenciar aplicativos** do centro de administração do Teams, localize a caixa de texto **Pesquisar por nome**. 
-1. Insira **hello-tab** para filtrar a lista de aplicativos. Em seguida, **selecione o aplicativo** para ver os detalhes do aplicativo.
+1. Insira **hello-tabdev** para filtrar a lista de aplicativos. Em seguida, **selecione o aplicativo** para ver os detalhes do aplicativo.
 
     ![Captura de tela mostrando a pesquisa pelo aplicativo no Centro de administração do Teams.](../../media/search-app-dev-portal.png)
 
-1. No painel de detalhes do aplicativo **hello-tab**, selecione **Publicar**.
+1. No painel de detalhes do aplicativo **hello-tabdev**, selecione **Publicar**.
 
     ![Captura de tela da publicação do aplicativo no Centro de administração do Teams.](../../media/admin-publish-app.png)
 
@@ -38,7 +38,7 @@ Agora que seu aplicativo está publicado na loja da organização, abra o Micros
 ## Tarefa 2: Instale o aplicativo na loja
 
 1. Abra o cliente do Microsoft Teams ou entre no Microsoft Teams online ([teams.microsoft.com](teams.microsoft.com)) usando suas credenciais de locatário do **Microsoft 365**.
-2. No Microsoft Teams, vá para **Aplicativos** para exibir o repositório da organização. Em **Construído para a sua organização**, selecione o bloco **hello-tab**.
+2. No Microsoft Teams, vá para **Aplicativos** para exibir o repositório da organização. Em **Construído para a sua organização**, selecione o bloco **hello-tabdev**.
 
     a. ![Captura de tela da loja da organização com o aplicativo hello-tab realçado.](../../media/org-store.png)
 
