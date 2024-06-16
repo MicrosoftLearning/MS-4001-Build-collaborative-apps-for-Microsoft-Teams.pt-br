@@ -37,7 +37,7 @@ Agora que seu aplicativo está publicado na loja da organização, abra o Micros
 
 ## Tarefa 2: Instale o aplicativo na loja
 
-1. Abra o cliente do Microsoft Teams ou entre no Microsoft Teams online ([teams.microsoft.com](teams.microsoft.com)) usando suas credenciais de locatário do **Microsoft 365**.
+1. Abra o cliente do Microsoft Teams ou entre no Microsoft Teams online ([teams.microsoft.com](https://teams.microsoft.com/)) usando suas credenciais de locatário do **Microsoft 365**.
 2. No Microsoft Teams, vá para **Aplicativos** para exibir o repositório da organização. Em **Construído para a sua organização**, selecione o bloco **hello-tabdev**.
 
     a. ![Captura de tela da loja da organização com o aplicativo hello-tab realçado.](../../media/org-store.png)
