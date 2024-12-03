@@ -28,14 +28,16 @@ Primeiro, registre um webhook de entrada.
 **Observação:** Se a conta do Teams que você está usando para este exercício ainda não tiver uma equipe com um canal, crie um novo canal antes de concluir as etapas a seguir.
 
 1. No Microsoft Teams, navegue até um canal onde você possa configurar o webhook.
-2. No canal, selecione o menu **Mais opções** e selecione **Conectores**.  (Observação: use o menu dentro do canal, não o menu da lista de canais.)
+2. No canal, selecione o menu **Manage channel** e, em seguida, selecione **Edit** na seção Connectors.  
+
+   ![Captura de tela da edição do conector de chamada](../../media/invoke-connector-edit.png)
 3. Pesquise por `"webhook"` e selecione **Webhook de entrada**.
 
    ![Captura de tela do webhook na barra de pesquisa.](../../media/add-incoming-webhook.png)
 
 4. Selecione **Adicionar**.
 5. Na página de visão geral, selecione **Adicionar**.
-6. No canal, selecione o menu **Mais opções** novamente e selecione **Conectores**.
+6. No canal, selecione o menu **Gerenciar Canais** novamente e, em seguida, selecione **Editar** na seção Conectores.
 7. Ao lado do **Webhook de entrada**, selecione **Configurar**.
 8. Para o nome, insira **Alertas**.
 9. Selecione **Criar**.  Deixe esta janela aberta para que você possa copiar a URL durante a próxima tarefa.

@@ -33,13 +33,13 @@ Usar o modelo de Bot de Comando para criar um novo bot:
 
 1. Abra o Visual Studio Code.
 1. Na barra lateral, selecione o ícone **Microsoft Teams** para abrir o painel **Kit de Ferramenta do Teams**.
-1. Clique no botão **Criar um Aplicativo**.
+1. Selecione o botão **Criar Novo Aplicativo**.
 1. No menu **Novo projeto**, selecione **Bot** e, em seguida, selecione **Comando de chat** para criar um bot de comando.
 1. Em Linguagem de programação, selecione **TypeScript**.
 1. Em **Pasta do workspace**, selecione ou crie uma pasta para armazenar seus arquivos de projeto em seu computador.
 1. Em **Nome do aplicativo**, insira **SupportCommandBot** e pressione **Enter**. O Kit de Ferramentas do Teams fará o scaffold de um novo aplicativo e abrirá a pasta do projeto no Visual Studio Code.
 1. Você pode receber uma mensagem do Visual Studio Code perguntando se você confia nos autores dos arquivos nesta pasta. Selecione o botão **Sim, confio nos autores** para continuar.
-1. Examinar os diretórios e arquivos do projeto usando o Explorer no Visual Studio Code para se familiarizar com o código-fonte.
+1. Examinar os diretórios e arquivos do projeto usando o Explorer no Visual Studio Code para se familiarizar com o código-fonte. ![Captura de tela de arquivos no Explorer](../../media/explorer-bot-file.png)
 
 ## Tarefa 2: Configurar o manifesto
 
@@ -190,7 +190,7 @@ Se o ambiente de desenvolvimento não der suporte ao túnel do desenvolvedor do 
       ```shell
       Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:3978
       ```
-   1. Clique em `Ctrl + C` para desconectar o túnel ngrok.
+   1. Selecione `Ctrl + C` para desconectar o túnel ngrok.
 1. Navegue até a pasta `.vscode` e abra o arquivo `task.json`. Atualize a tarefa `Start local tunnel`:
    ```json
     {
@@ -266,6 +266,6 @@ Execute o seu aplicativo localmente para testar a funcionalidade:
 
 1. Abra o painel do **KIT DE FERRAMENTAS DO TEAMS**. No menu **DESENVOLVIMENTO**, selecione **Pré-visualizar o seu aplicativo do Teams** (ou use a chave `F5`) e, em seguida, selecione **Depurar no Teams ()** com o navegador de sua preferência.  
 2. O Kit de Ferramentas do Teams provisionará e executará o seu aplicativo localmente em um navegador.
-3. Na caixa de diálogo de instalação do aplicativo no navegador, selecione **Adicionar** para instalar o seu aplicativo do Teams.  O Teams abre uma conversa com o bot instalado.
+3. Na caixa de diálogo de instalação do aplicativo no navegador, selecione **Adicionar** para instalar o seu aplicativo do Teams.  O Teams abre uma conversa com o bot instalado. ![Captura de tela da adição de SupportCommandBotlocal](../../media/add-supportcommandbotlocal.png)
 4. Insira ou selecione o comando `resetPassword`.
-5. Verifique se o bot responde com um cartão adaptável que contém instruções de redefinição de senha.
+5. Verifique se o bot responde com um cartão adaptável que contém instruções de redefinição de senha. ![Captura de tela do SupportCommandBotlocal em execução](../../media/supportcommandbotlocal-run.png)

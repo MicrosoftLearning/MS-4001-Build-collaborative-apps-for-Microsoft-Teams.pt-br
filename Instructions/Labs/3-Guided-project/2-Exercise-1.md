@@ -102,7 +102,7 @@ Em seguida, use o Kit de Ferramentas do Teams para provisionar os recursos neces
 
 ## Tarefa 5: Configurar permissões para recuperar dados do Microsoft Graph
 
-1. Entre no portal do Azure [portal.azure.com](portal.azure.com) usando sua conta de administrador do **Microsoft 365**.
+1. Entre no portal do Azure [portal.azure.com](https://portal.azure.com) usando sua conta de administrador do **Microsoft 365**.
 2. No menu de navegação à esquerda, navegue até **Microsoft Entra ID**.
 3. Acesse **Gerenciar > Registros de aplicativo > Todos os aplicativos**.
 4. Selecione o registro do aplicativo **Detalhes de Contato** criado durante o provisionamento.
@@ -146,3 +146,5 @@ Visualize seu aplicativo no cliente do Teams para testar a funcionalidade.
 5. Quando a extensão de mensagem for carregada no cliente do Teams, insira uma letra para pesquisar os usuários pelo nome de exibição.  Selecione um resultado para inserir um cartão na conversa.
 
 Observação: Se, por algum motivo, a extensão da mensagem não for invocada automaticamente, você poderá acessá-la inserindo "Detalhes de desenvolvimento de @Contact" na barra de comandos na parte superior do cliente do Teams ou na área de mensagem de redação.  Você também pode usar o botão **Ações e aplicativos** da área de Redigir mensagem para localizar o aplicativo.
+
+   ![Captura de tela da invocação da extensão de mensagem](../../media/invoke-message-extension.png)

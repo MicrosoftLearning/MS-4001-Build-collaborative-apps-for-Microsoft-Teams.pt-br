@@ -2,7 +2,7 @@
 
 Neste exercício, primeiro você criará e provisionará um aplicativo de guia do Teams usando o Kit de Ferramentas do Teams para Visual Studio Code. Em um exercício posterior, você configurará o aplicativo a ser hospedado no Azure.
 
-**Observação**:  Os exercícios neste módulo de treinamento usam o Kit de Ferramentas do Teams v5.6.0. As etapas a seguir pressupõem que a extensão do Kit de Ferramentas do Teams esteja instalada.
+**Observação**: os exercícios neste módulo de treinamento usam o Kit de Ferramentas do Teams v5.8.0. As etapas a seguir pressupõem que a extensão do Kit de Ferramentas do Teams esteja instalada.
 
 ## Tarefa 1: Criar um novo aplicativo de guias
 
@@ -34,6 +34,8 @@ Neste exercício, primeiro você criará e provisionará um aplicativo de guia d
 
 1. Quando o aplicativo for testado com êxito, pare de executar o aplicativo localmente.
 
+    ![Captura de tela do aplicativo de guia de depuração](../../media/launch-debug-tab-app.png)
+
 1. Para encerrar a sessão de depuração e parar de executar o aplicativo, você pode fechar o navegador, selecionar **Executar > Parar depuração** ou selecionar **Shift+F5**.
 
 ## Tarefa 2: Entrar no Azure no Kit de Ferramentas do Teams
@@ -49,6 +51,7 @@ Entre no Azure usando sua conta da **assinatura do Azure**.
 1. Na caixa de diálogo exibida, selecione **Entrar**.
 
     ![Captura de tela de uma caixa de diálogo para confirmar a entrada no Azure.](../../media/sign-into-azure-alert.png)
+    ![Captura de tela de usuário logado no Azure](../../media/signed-into-azure.png)
 
 ## Tarefa 3: Provisionar os recursos
 
@@ -72,6 +75,7 @@ Agora você pode provisionar os recursos de que o seu aplicativo de guias do Tea
 
 1. O provisionamento começa para todos os recursos necessários para hospedar o aplicativo de guias do Teams no Azure. O provisionamento pode demorar um pouco.
 
+    ![Captura de tela do sucesso da provisão.](../../media/provision-success.png)
 Agora você provisionou com êxito todos os recursos necessários para hospedar o aplicativo de guias do Teams.
 
 Em seguida, você implantará o código-fonte do aplicativo nesses recursos.
