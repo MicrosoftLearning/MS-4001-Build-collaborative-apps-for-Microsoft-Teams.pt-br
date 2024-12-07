@@ -1,3 +1,5 @@
+**Este curso será desativado em **30/08/2024**. Depois que o curso for desativado, todos os repositórios GitHub serão removidos. Obrigado.**
+
 # MS-4001: Compilar aplicativos colaborativos para o Microsoft Teams
 
 **Você é um MCT?** Dê uma olhada no nosso [Guia de usuário do GitHub para MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)

@@ -24,9 +24,12 @@ Vamos executar o projeto e ver como ele ficará no Microsoft Teams.
 4. Em seguida, o Kit de Ferramenta do Teams abrirá o Microsoft Teams no navegador que você selecionou.
 5. Entre com a mesma conta do **Microsoft 365** que você usou para entrar no Kit de Ferramenta do Teams.
 6. Em seguida, o Teams exibirá uma opção para instalar seu aplicativo. Selecione **Adicionar** para pré-visualizar o aplicativo.
-7. Quando você estiver pré-visualizando, o nome do seu aplicativo será sufixado com *local*. O sufixo indica que o aplicativo está sendo executado localmente e não foi implantado.
 
     ![Captura de tela da caixa de diálogo para instalar um aplicativo do Teams.](../../media/add-teams-app.png)
+
+7. Quando você estiver pré-visualizando, o nome do seu aplicativo será sufixado com *local*. O sufixo indica que o aplicativo está sendo executado localmente e não foi implantado.
+
+    ![Captura de tela da página da web para a guia no local.](../../media/run-tab-local.png)
 
 8. Para saber mais sobre a estrutura do projeto e como usar e personalizar o aplicativo, abra o arquivo **README.md** na pasta do projeto.
 

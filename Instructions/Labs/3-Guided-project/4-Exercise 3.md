@@ -33,7 +33,7 @@ Você precisará realizar as seguintes tarefas para concluir o exercício:
 
 Uma notificação será exibida quando todas as pastas e arquivos tiverem sido colocados em scaffolding com êxito, e uma nova instância do Visual Studio Code abrirá a nova pasta do projeto.
 
-No painel **GERENCIADOR**, a pasta *src* contém o código-fonte do seu aplicativo. Os arquivos fora da pasta *src* são relacionados ao servidor, como o bot.
+No painel **GERENCIADOR**, a pasta *src* contém o código-fonte do seu aplicativo. Os arquivos fora da pasta *src* são relacionados ao servidor, como o bot. ![Captura de tela de arquivos no Explorer](../../media/explorer-tab-file.png)
 
 ## Tarefa 2: Atualize o aplicativo para recuperar e exibir a localidade do usuário
 
@@ -91,6 +91,6 @@ Execute seu aplicativo no modo de depuração para testar a funcionalidade.
    - No Visual Studio Code, navegue até o menu **Executar e depurar**.  Selecione **Depurar no Teams** com a opção de navegador desejada e, em seguida, selecione o botão **Iniciar a depuração**.
    - Na seção **AMBIENTE** do Kit de Ferramenta do Teams, abra a pasta *local* e selecione o navegador de sua preferência.
 
-3. Depois que o Visual Studio Code executar algumas verificações, com ações visíveis na guia **Console**, uma nova janela do navegador será aberta. Na caixa de diálogo **UserInfoApplocal**, selecione o botão **Adicionar** para instalar o aplicativo no Teams para pré-visualização.
+3. Depois que o Visual Studio Code executar algumas verificações, com ações visíveis na guia **Console**, uma nova janela do navegador será aberta. Na caixa de diálogo **UserInfoApplocal**, selecione o botão **Adicionar** para instalar o aplicativo no Teams para pré-visualização. ![Captura de tela da adição de UserInfoApplocal](../../media/add-userinfoapplocal.png)
 
-O aplicativo agora pode ser visualizado na barra lateral. O aplicativo está pré-configurado com duas guias: **Guia Pessoal** e **Sobre**. Verifique se o código da localidade está sendo exibido na guia.
+O aplicativo agora pode ser visualizado na barra lateral. O aplicativo está pré-configurado com duas guias: **Guia Pessoal** e **Sobre**. Verifique se o código de local é exibido na guia. ![Captura de tela do UserInfoApplocal na web](../../media/userinfoapplocal-run.png)
